@@ -1,0 +1,168 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+.collapse ul li a {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.collapse ul li a:hover {
+    color: rgb(13, 110, 253);
+    transition: all 0.5s ease-in-out;
+}
+
+#sec1st {
+    background-image: url(../imgs/shape-a.png);
+    background-position: center left;
+}
+
+.container h5 {
+    letter-spacing: 1.25px;
+}
+
+.card-body {
+    position: relative;
+
+}
+
+.card-body .imgCard {
+    position: absolute;
+    right: 3px;
+    top: -38px;
+}
+
+#sec8th {
+    background: rgb(32, 101, 192);
+    background-image: url(../imgs/shape-a.png);
+    background-position: center;
+    background-repeat: space;
+}
+
+#sec8th .boxx {
+    background: rgb(22, 73, 166);
+    opacity: .9;
+    border-radius: 4px;
+}
+
+#sec8th h5 {
+    letter-spacing: 1.5px;
+    color: #59aaee;
+}
+
+#sec9th .donotImg {
+    position: relative;
+}
+
+#sec9th .donotImg .donotIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+#sec9th .doImg {
+    position: relative;
+}
+
+#sec9th .doImg .doIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+#Q1,
+#Q2,
+#Q3,
+#Q4,
+#Q5,
+#Q6 {
+    cursor: pointer;
+
+}
+
+#Q1:hover {
+    border-color: blue;
+    color: blue;
+    transition: all 0.3s;
+}
+#Q2:hover {
+    border-color: blue;
+    color: blue;
+    transition: all 0.3s;
+}
+#Q3:hover {
+    border-color: blue;
+    color: blue;
+    transition: all 0.3s;
+}
+#Q4:hover {
+    border-color: blue;
+    color: blue;
+    transition: all 0.3s;
+}
+#Q5:hover {
+    border-color: blue;
+    color: blue;
+    transition: all 0.3s;
+}
+#Q6:hover {
+    border-color: blue;
+    color: blue;
+    transition: all 0.3s;
+}
+
+#questionAndAnswer .cardHead {
+    cursor: pointer;
+}
+#questionAndAnswer .textContent{
+    position: relative;
+    line-height: 2;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+#footer {
+    background: #151c2e;
+    background-image: url(../imgs/shape-a.png);
+    background-position: center;
+    background-repeat: space;
+}
+
+.backTop {
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.backTop.active {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.lastList ul li {
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+.lastList ul li a{
+    text-align: justify;
+    text-decoration: none;
+}
+.lastList ul li a:hover{
+    text-decoration: whitesmoke wavy;
+    transition: all 0.3s ease;
+}
+
+.afterClick {
+    color: #5173e5;
+    transition: all 0.3s ease-in;
+    letter-spacing: .7px;
+}
